@@ -24,7 +24,7 @@ module.exports = () => {
       }),
       new InjectManifest({
         swSrc: './src-sw.js',
-        swDest: '../client/dist/index.html',
+        swDest: '/src-sw.js',
         // right path?
       }),
       new WebpackPwaManifest({
